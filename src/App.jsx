@@ -1100,9 +1100,9 @@ export default function QuranTranslationLandingPage() {
                 initial="hidden"
                 animate="show"
                 variants={fadeUp}
-                className="text-3xl font-black leading-[1.25] sm:text-5xl lg:text-7xl"
+                className="overflow-visible pb-5 pt-2 text-3xl font-black leading-[1.6] sm:pb-6 sm:pt-3 sm:text-5xl sm:leading-[1.55] lg:text-7xl lg:leading-[1.5]"
               >
-                <span className="block bg-[linear-gradient(135deg,#F7E6B1_0%,#D8B36A_42%,#FFFFFF_72%,#B8892C_100%)] bg-clip-text text-transparent">
+                <span className="inline-block overflow-visible bg-[linear-gradient(135deg,#F7E6B1_0%,#D8B36A_42%,#FFFFFF_72%,#B8892C_100%)] bg-clip-text pb-2 text-transparent drop-shadow-[0_8px_22px_rgba(216,179,106,0.24)]">
                   سنا قرآنی چینلز
                 </span>
               </motion.h1>
@@ -1661,9 +1661,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div
-                  className={`rounded-[1.6rem] border border-white/10 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center ${INNER_GRADIENT}`}
-                >
+                <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center">
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D8B36A]/20 bg-white/5 shadow-[0_0_24px_rgba(216,179,106,0.12)] backdrop-blur-md">
                       <MessageCircle
@@ -1714,9 +1712,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div
-                  className={`rounded-[1.8rem] border border-white/10 p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center ${INNER_GRADIENT}`}
-                >
+                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(135deg,#001E0E_0%,#00401A_34%,#071631_68%,#5C4219_100%)] p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center">
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D8B36A]/20 bg-white/5 shadow-[0_0_24px_rgba(216,179,106,0.12)] backdrop-blur-md">
                       <Link2
